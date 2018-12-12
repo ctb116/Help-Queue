@@ -1,0 +1,17 @@
+.headerBackgroundImg {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  margin-left: 0px;
+  margin-top: -8px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.headerTitle {
+  position: relative;
+  margin-top: -20px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  z-index: 1;
+}
