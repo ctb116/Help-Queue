@@ -1,17 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import "../styles/NavBarLinks.css";
 
 function NavBarLinks(){
   return (
-    <div>
+    <div className="NavBarLinks">
       <style jsx>{`
-        p {
-          margin-top: -42px;
-          padding-right: 15px;
-          position: absolute;
-          right: 1%;
-        }
       `}</style>
-      <p>placeholder links</p>
+      <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
     </div>
   );
 }

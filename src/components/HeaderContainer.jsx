@@ -5,11 +5,8 @@ import "../styles/HeaderContainer.css";
 
 function HeaderContainer(){
   return (
-    <div>
+    <div className="headerBackgroundBody">
       <style jsx>{`
-          div {
-            background-color: #a9b8c0;
-          }
         `}</style>
       <HeaderImg/>
       <img className="headerBackgroundImg" src={require('../static/media/headerBackgroundImg.jpg')}/>
