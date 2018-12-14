@@ -5,8 +5,6 @@ import "../styles/NavBarLinks.css";
 function NavBarLinks(){
   return (
     <div className="NavBarLinks">
-      <style jsx>{`
-      `}</style>
       <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
     </div>
   );
