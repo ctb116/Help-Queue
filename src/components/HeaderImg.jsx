@@ -1,5 +1,4 @@
 import React from 'react';
-import "../styles/HeaderImg.css";
 
 function HeaderImg(){
   return (
@@ -12,7 +11,7 @@ function HeaderImg(){
           left: 30%;
         }
       `}</style>
-    <img src={require('../static/media/helpDeskImg.jpg')}/>
+    <img src={require('../static/media/helpDeskImg.jpg')} alt="headerImg"/>
     </div>
   );
 }

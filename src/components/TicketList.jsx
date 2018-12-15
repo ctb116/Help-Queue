@@ -23,7 +23,6 @@ var masterTicketList = [
 function TicketList(props){
   return (
     <div>
-      <hr/>
       {masterTicketList.map((ticket, index) =>
         <Ticket names={ticket.names}
           location={ticket.location}

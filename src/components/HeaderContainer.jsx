@@ -9,7 +9,7 @@ function HeaderContainer(){
       <style jsx>{`
         `}</style>
       <HeaderImg/>
-      <img className="headerBackgroundImg" src={require('../static/media/headerBackgroundImg.jpg')}/>
+      <img className="headerBackgroundImg" src={require('../static/media/headerBackgroundImg.jpg')} alt="background"/>
       <h1 className="headerTitle">Help Queue</h1>
       <NavBarLinks/>
     </div>
